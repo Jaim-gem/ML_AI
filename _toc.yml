@@ -1,0 +1,25 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+parts: 
+  - caption: Machine Learning
+    numbered: false
+    chapters:
+    - file: notebooks
+  - caption: Computer Vision 
+    numbered: false
+    chapters: 
+    - file: computervision
+    - file: computervision01
+    - file: computervision02
+  - caption: Application with UAVs
+    numbered: false
+    chapters:
+    - file: uav
+  - caption: References 
+    numbered: false
+    chapters: 
+    - file: ref
+
